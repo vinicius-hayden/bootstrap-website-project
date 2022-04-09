@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1050px){
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 749px){
+   
+    .tab1, .tab2{
+        display: none;
+    }
+    .tab3{
+        margin-left: 15%;
+    }
+}
+
+.responsive-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_img{
+    height: 50px;
+    width: 50px;
+    background-image:url("https://brandlogos.net/wp-content/uploads/2021/04/facebook-icon.png");
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.banner{
+    background-image: url('/img/toronoto-cityscape-night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 50vh;
+    min-width: 40vw;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+main h1, p{
+    margin: 1%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.footer {
+    background: #606060;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180cb;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+.bleca{
+    width:100%;
+    height: 50%;
+    width: 25rem;
+}
+
+
+.tab1{
+    background-repeat: no-repeat;
+    background-image: url(../img/undraw_mobile_development_re_wwsn.svg);
+    background-size: 75%;
+    height: 30vh;
+    width: 25rem;
+}
+
+.tab2{
+    background-repeat: no-repeat;
+    background-image: url(../img/undraw_innovative_re_rr5i.svg);
+    background-size: 75%;
+    height: 30vh;
+    width: 25rem;
+}
+
+
+.tab3{
+    background-repeat: no-repeat;
+    background-image: url(../img/undraw_Programming_re_kg9v.png);
+    background-size: 75%;
+    height: 30vh;
+    width: 25rem;
+}
+
+
+main p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#card1, #card2, #card3{
+    height: 475px;
+    width: 300px;
+    background-color: #FEFCFC;
+    border-radius: 25px;
+    margin: 3%;
+    box-shadow:15px 15px 50px;
+}
+
+.imagecard1{
+    border-radius: 25px 25px 0px 0px;
+    height: 175px;
+    width: 300px;
+    background-image: url(../img/undraw_proud_coder_re_exuy.svg);
+    background-size: contain;
+    margin-top: 3%;
+}
+
+.imagecard2{
+    border-radius: 25px 25px 0px 0px;
+    height: 175px;
+    width: 300px;
+    background-image: url(../img/undraw_my_code_snippets_re_4adu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+}
+
+.imagecard3{
+    border-radius: 25px 25px 0px 0px;
+    height: 175px;
+    width: 300px;
+    background-image: url(../img/undraw_authentication_re_svpt.svg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    margin-top: 3%;
+    margin-left: 6%
+}
+
+
+.card1 p{
+    margin-top: 5%;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.card1 h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input button{
+    text-align: center;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: green;
+    margin-top: 6%;
+    width: 150px;
+    font-size: 20px;
+}
+
+content h1{
+    font-size: 30px;
+}
+
+#card2 .input button{
+    text-align: center;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: green;
+    margin-top: 5%;
+    width: 150px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+#card2 .input button:hover{
+    background-color: cadetblue;
+}
+
+.banner_post{
+    background-image: url(../img/undraw_mobile_development_re_wwsn.svg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    height: 305px;
+
+}
+
+.bg-custom {
+    background-color:#484848 !important;
+  }
